@@ -1,0 +1,198 @@
+/* Estilos para el paginador */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: -4rem;
+  }
+  
+  .pageButton.active {
+    color: white;
+    background-color: brown;
+  }
+  .currentPage {
+    background-color: #333;
+    color: #fff;
+  }
+  /* Estilos para los botones del paginador */
+  .pagination button {
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+    margin: 0 0.2rem;
+    background-color: #a3a8b8;
+  }
+  
+  /* Estilos para el hover del botón */
+  .pagination button:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  .navigationButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+  }
+  
+  .navigationButtons :hover {
+    background-color: #606060;
+  }
+  
+  .navigationButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navigationButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .select1 {
+    min-width: 80px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px #412806;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    background-color: #847e79;
+    margin-top: -130px;
+    margin-left: 273px;
+
+  }
+  @media only screen and (min-width: 1500px) {
+    .select1 {
+      margin-top: -130px;
+      margin-left: -350px;
+    }
+  }
+  
+  .select1:hover {
+    background-color: #524b43;
+    color: #d3d0d0;
+    transform: translateY(-5px);
+  }
+  .select2 {
+    min-width: 80px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px #412806;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    background-color: #847e79;
+    margin-top: -130px;
+    margin-left: 484px;
+  }
+  @media only screen and (min-width: 1500px) {
+    .select2 {
+      margin-top: -130px;
+      margin-left: -210px;
+    }
+  }
+  
+  .select2:hover {
+    background-color: #524b43;
+    color: #d3d0d0;
+    transform: translateY(-5px);
+  }
+  .select3 {
+    min-width: 80px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px #412806;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    background-color: #847e79;
+    margin-top: -130px;
+    margin-left: 376px;
+    }
+  @media only screen and (min-width: 1500px) {
+    .select3 {
+      margin-top: -130px;
+      margin-left: -660px;
+    }
+  }
+  
+  .select3:hover {
+    background-color: #524b43;
+    color: #d3d0d0;
+    transform: translateY(-5px);
+  }
+  
+  .search {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 500px;
+  }
+  .select4 {
+    min-width: 80px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px #412806;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    background-color: #847e79;
+    margin-top: -130px;
+    margin-left: 131px;
+    }
+  @media only screen and (min-width: 1500px) {
+    .select4 {
+      margin-top: -130px;
+      margin-left: -530px;
+    }
+  }
+  
+  .select4:hover {
+    background-color: #524b43;
+    color: #d3d0d0;
+    transform: translateY(-5px);
+  }
+
+  /* Home.module.css */

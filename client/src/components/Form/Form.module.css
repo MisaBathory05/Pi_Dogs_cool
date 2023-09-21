@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 260px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Etiquetas de campo */
+  label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Cherry Bomb One', cursive;
+  }
+  
+  /* Entradas de texto */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para cada checkbox y su texto */
+  label div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .errorMessage {
+    font-size: 11px;
+    color: red;
+    margin-top: -20px;
+  }
+  
+  /* Botón de envío */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+  }
+  
+  .temperamentosContainer {
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .temperamentosContainer div {
+    margin-bottom: -3px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+  }
+  
+  /* Estilo para cada temperamento seleccionado */
+  .item {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 2px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  /* Estilo para la caja de temperamentos seleccionados */
+  .box {
+    overflow-y: auto;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+  }
+  
+  .altura {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .peso {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .formDiv {
+    background-color: #bdbdbd;
+    width: 500px;
+    height: 840px;
+    margin-left: 400px;
+    border-radius: 10%;
+  }
+  
+  @media only screen and (min-width: 1500px) {
+    .formDiv {
+      margin-left: 700px;
+      margin-top: 20px;
+    }
+  }

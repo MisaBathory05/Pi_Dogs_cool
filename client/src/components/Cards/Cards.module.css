@@ -1,0 +1,15 @@
+.cardItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 13%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  @media only screen and (min-width: 1200px) {
+    .cardItem {
+      margin-top: 19px;
+    }
+  }

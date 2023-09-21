@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px;
+    background-color: #5a505b;
+    margin-top: 30px;
+    border-radius: 10%;
+    height: 250px;
+    width: 800px;
+    margin-left: 150px;
+  }
+  @media only screen and (min-width: 1500px) {
+    .container {
+      margin-top: 130px;
+      margin-left: 450px;
+      height: 350px;
+      width: 850px;
+    }
+  }
+  /* Estilos para el contenedor de la imagen */
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    border-radius: 10px;
+  }
+  
+  /* Estilos para la imagen del perro */
+  .img {
+    max-width: 350px;
+    max-height: 320px;
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+  }
+  
+  /* Estilos para el contenedor de los datos */
+  .dataContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  
+  /* Estilos para los títulos */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    color: #f9e4ce;
+    margin-bottom: 10px;
+    width: 450px;
+    word-break: break-all;
+  }
+  
+  /* Estilos para la información del perro */
+  .info {
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    color: #ebe7e1;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el listado de temperamentos */
+  .temperaments {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 450px;
+    word-break: break-all;
+  }

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+.cardItem {
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 10px;
+    width: 300px;
+    height: 380px;
+    background-color: #727272;
+    border-radius: 6%;
+    position: relative;
+    overflow: hidden;
+    border-color: #f0c079;
+  }
+  
+  @media only screen and (min-width: 1500px) {
+    .cardItem {
+      margin: 10px;
+      width: 290px;
+      height: 420px;
+    }
+  }
+  .cardItem h2 {
+    font-size: 80%;
+    object-fit: cover;
+    margin: 2%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+  }
+  .cardItem h3 {
+    font-size: 70%;
+    object-fit: cover;
+    margin: 3%;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Klee One', cursive;
+  }
+  @media only screen and (min-width: 1200px) {
+    .cardItem h3 {
+      font-size: 90%;
+    }
+  }
+  
+  
+  .cardItem h1 {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin: 3%;
+    font-size: 110%;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  @media only screen and (min-width: 1200px) {
+    .cardItem h1 {
+      font-size: 150%;
+      font-weight: 700;
+    }
+  }
+  
+  .img {
+    width: 400px;
+    height: 150px;
+    object-fit:cover;
+    object-position:center;
+    opacity: 1;
+    border-radius: 3%;
+  }
+  @media only screen and (min-width: 1200px) {
+    .img {
+      width: 300px;
+      height: 220px;
+    }
+  }
+  
+  .cardItem:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+    box-shadow: 5px 11px 15px rgba(143, 144, 143, 0.836);
+    transition: transform 0.3s ease-in-out;
+  }

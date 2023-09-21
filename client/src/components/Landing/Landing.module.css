@@ -1,0 +1,58 @@
+/* Place in your CSS file at the top of the document */
+
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+
+/* Estilos para el contenedor principal */
+.repo {
+    width: 100vw;
+    height: 100vh;
+}
+
+.landingContainer {
+    background-color: rgba(red, green, blue, alpha);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("../../assents/Fondo_1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Estilos para el título */
+  .tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 15vh;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Miltonian Tattoo', cursive;
+    
+  }
+  .button {
+    font-family: 'comic sans ms';
+    color: #c0e8f7 !important;
+    font-size: 20px;
+    text-shadow: 0px 1px 3px #161315;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 36px;
+    border: 2px groove #0E1A29;
+    background: #DAD6EE;
+    background: linear-gradient(to top, #ffffff, #6a5764);
+  }
+  .button:hover {
+    color: #cadcf3 !important;
+    background: #c3d9ec;
+    background: linear-gradient(to top, #0E1C29, #D1D3EE);
+  }
